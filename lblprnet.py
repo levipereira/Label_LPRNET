@@ -22,7 +22,7 @@ index = 0
 curentid = -1
 zoom = 1
 
-help_txt = "Keyboard shortcuts \n\nNEXT : KEY UP \nBACK: KEY DOWN \nDELETE: PAGE DOWN \n "
+help_txt = "Keyboard shortcuts \n\nNEXT : KEY UP \nBACK: KEY DOWN \nDELETE: PAGE DOWN \n"
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
