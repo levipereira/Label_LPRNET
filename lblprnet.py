@@ -45,13 +45,13 @@ class Ui_MainWindow(object):
         
         
         self.lbImage = QtWidgets.QLabel(self.centralWidget)
-        self.lbImage.setGeometry(QtCore.QRect(30, 100, 531, 192))
+        self.lbImage.setGeometry(QtCore.QRect(30, 110, 531, 192))
         self.lbImage.setObjectName("lbImage")
         self.lbImage.setStyleSheet("border: 2px solid blue");
 
         self.tbEdit = QtWidgets.QLineEdit(self.centralWidget)
         #self.tbEdit.setGeometry(QtCore.QRect(580, 100, 381, 51))
-        self.tbEdit.setGeometry(QtCore.QRect(30, 330, 381, 51))
+        self.tbEdit.setGeometry(QtCore.QRect(30, 50, 381, 51))
         self.tbEdit.setObjectName("tbEdit")
         self.tbEdit.setFont(QFont("Times",15))
 
@@ -69,12 +69,12 @@ class Ui_MainWindow(object):
 
         self.btZoomIn = QtWidgets.QPushButton(self.centralWidget)
         #self.btZoomIn.setGeometry(QtCore.QRect(30, 330, 99, 27))
-        self.btZoomIn.setGeometry(QtCore.QRect(580, 100, 99, 27))
+        self.btZoomIn.setGeometry(QtCore.QRect(580, 110, 99, 27))
         self.btZoomIn.setObjectName("btZoomIn")
 
         self.btZoomOut = QtWidgets.QPushButton(self.centralWidget)
         #self.btZoomOut.setGeometry(QtCore.QRect(170, 330, 99, 27))
-        self.btZoomOut.setGeometry(QtCore.QRect(720, 100, 99, 27))
+        self.btZoomOut.setGeometry(QtCore.QRect(720, 110, 99, 27))
         self.btZoomOut.setObjectName("btZoomOut")
 
 
