@@ -36,7 +36,7 @@ class Ui_MainWindow(object):
         self.btBrowse.setObjectName("btBrowse")
 
         self.lbText = QtWidgets.QLabel(self.centralWidget)
-        self.lbText.setGeometry(QtCore.QRect(240, 10, 120, 35))
+        self.lbText.setGeometry(QtCore.QRect(240, 10, 200, 35))
         self.lbText.setObjectName("lbText")
 
         self.txtHelp = QtWidgets.QLabel(self.centralWidget)
@@ -149,6 +149,7 @@ class Ui_MainWindow(object):
                 image_list.extend(glob.glob(os.path.join(pathDir_images, ext)))
         except:
             pass
+        image_list = sorted(image_list, key=os.path.basename)
         if len(image_list):
             self.manage_last_session(False)
             if len(image_list)-1 < index :
